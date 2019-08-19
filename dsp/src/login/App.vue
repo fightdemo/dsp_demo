@@ -94,7 +94,7 @@ export default {
             }
             this.$ajax({
                 url: isEx ? "/dsp/user/loginEx" : "/dsp/user/login",
-                laod: true,
+                load: true,
                 data: data
             }).then(function(data) {
                 var token = data.token;
