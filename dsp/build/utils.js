@@ -104,7 +104,7 @@ exports.createNotifierCallback = () => {
 }
 
 var apps = ["login", "admin", "saas","agent","adv","tool"];
-var apps = ["login"];
+var apps = ["login", "admin"];
 
 exports.getEntry = function () {
   var obj = {};
